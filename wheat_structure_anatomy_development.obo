@@ -1,0 +1,571 @@
+format-version: 1.2
+date: 07:08:2009 12:11
+saved-by: RSHRESTHA
+auto-generated-by: OBO-Edit 2.0
+default-namespace: wheat_structure_anatomy_development
+namespace-id-rule: * CO_121:$sequence(7,0,9999999)$
+
+[Term]
+id: CO_121:0000000
+name: CGIAR Wheat Plant Anatomy and Development Ontology
+
+[Term]
+id: CO_121:0000001
+name: 0-germination
+def: "The process by which kernels sprout and begin to grow under appropriate temperature and moisture conditions." [http://www.biology-online.org]
+synonym: "01-germination " RELATED []
+xref: GRO:0007051
+is_a: CO_121:0000000 ! CGIAR Wheat Plant Anatomy and Development Ontology
+
+[Term]
+id: CO_121:0000002
+name: 1-leaf development
+is_a: CO_121:0000000 ! CGIAR Wheat Plant Anatomy and Development Ontology
+
+[Term]
+id: CO_121:0000003
+name: 2-tillering
+xref: GRO:0007069
+is_a: CO_121:0000000 ! CGIAR Wheat Plant Anatomy and Development Ontology
+
+[Term]
+id: CO_121:0000004
+name: 3 stem elongation
+xref: GRO:0007080
+is_a: CO_121:0000000 ! CGIAR Wheat Plant Anatomy and Development Ontology
+
+[Term]
+id: CO_121:0000005
+name: 4-booting
+synonym: "05-booting " RELATED []
+xref: GRO:0007090
+is_a: CO_121:0000000 ! CGIAR Wheat Plant Anatomy and Development Ontology
+
+[Term]
+id: CO_121:0000006
+name: 5-inflorescence emergence
+xref: GRO:0007095
+is_a: CO_121:0000000 ! CGIAR Wheat Plant Anatomy and Development Ontology
+
+[Term]
+id: CO_121:0000007
+name: 6-flowering
+is_a: CO_121:0000000 ! CGIAR Wheat Plant Anatomy and Development Ontology
+
+[Term]
+id: CO_121:0000008
+name: 7-fruit development
+synonym: "08-milk development " RELATED []
+xref: GRO:0007105
+is_a: CO_121:0000000 ! CGIAR Wheat Plant Anatomy and Development Ontology
+
+[Term]
+id: CO_121:0000009
+name: 8-ripening
+synonym: "10-ripening" RELATED []
+synonym: "BBCH principal growth stage 8" RELATED []
+xref: GRO:0007114
+is_a: CO_121:0000000 ! CGIAR Wheat Plant Anatomy and Development Ontology
+
+[Term]
+id: CO_121:0000010
+name: 9-senescence
+is_a: CO_121:0000000 ! CGIAR Wheat Plant Anatomy and Development Ontology
+
+[Term]
+id: CO_121:0000011
+name: 00-dry seed
+synonym: "1.01-dry seed " RELATED []
+xref: GRO:0007052
+is_a: CO_121:0000001 ! 0-germination
+
+[Term]
+id: CO_121:0000012
+name: 01-seed imbibition
+def: "The stage at which seed absorbs water." [BBCH:Monograph]
+synonym: "1.02-start of imbibition " RELATED []
+xref: GRO:0007053
+is_a: CO_121:0000001 ! 0-germination
+
+[Term]
+id: CO_121:0000013
+name: 03-seed imbibition complete
+def: "The stage at which seed swollen, start germination." [BBCH:Monograph]
+synonym: "1.03-imbibition complete " RELATED []
+xref: GRO:0007054
+is_a: CO_121:0000001 ! 0-germination
+
+[Term]
+id: CO_121:0000014
+name: 05-radicle emergence
+def: "The stage at which radicle emerged from seed." [BBCH:Monograph]
+synonym: "1.04-radicle emerged from seed " RELATED []
+xref: GRO:0007055
+is_a: CO_121:0000001 ! 0-germination
+
+[Term]
+id: CO_121:0000015
+name: 06-radicle elongation
+def: "The stage at which radicle elongates, root hairs and/or side roots visible." [BBCH:Monograph]
+is_a: CO_121:0000001 ! 0-germination
+
+[Term]
+id: CO_121:0000016
+name: 07-coleoptile emergence
+def: "The stage at which coleoptile emerged from seed." [BBCH:Monograph]
+synonym: "1.05-coleoptile emerged from seed " RELATED []
+xref: GRO:0007056
+is_a: CO_121:0000001 ! 0-germination
+
+[Term]
+id: CO_121:0000017
+name: 09- leaf emergence
+def: "The stage at which leaf emerged at coleoptile tip." [BBCH:Monograph]
+synonym: "1.06-leaf just at coleoptile tip " RELATED []
+synonym: "cracking stage" RELATED []
+xref: GRO:0007057
+is_a: CO_121:0000001 ! 0-germination
+
+[Term]
+id: CO_121:0000018
+name: 10-first leaf emergence
+def: "The stage at which 1st leaf emerged through coleoptile and tip visible." [BBCH:Monograph]
+synonym: "2.01-first leaf through coleoptile" RELATED []
+xref: GRO:0007059
+is_a: CO_121:0000002 ! 1-leaf development
+
+[Term]
+id: CO_121:0000019
+name: 11-first leaf unfolded
+def: "The stage at which 1st leaf more then half visible." [BBCH:Monograph]
+xref: GRO:0007060
+is_a: CO_121:0000002 ! 1-leaf development
+
+[Term]
+id: CO_121:0000020
+name: 12-two leaves unfolded
+def: "The stage at which second leaf more then half visible." [BBCH:Monograph]
+xref: GRO:0007061
+is_a: CO_121:0000002 ! 1-leaf development
+
+[Term]
+id: CO_121:0000021
+name: 13-three leaves unfolded
+def: "The stage at which third leaf more then half visible." [BBCH:Monograph]
+xref: GRO:0007062
+is_a: CO_121:0000002 ! 1-leaf development
+
+[Term]
+id: CO_121:0000022
+name: 14-four leaves unfolded
+def: "The stage at which fourth leaf more then half visible." [BBCH:Monograph]
+xref: GRO:0007063
+is_a: CO_121:0000002 ! 1-leaf development
+
+[Term]
+id: CO_121:0000023
+name: 15-five leaves unfolded
+def: "The stage at which fifth leaf more then half visible." [BBCH:Monograph]
+xref: GRO:0007064
+is_a: CO_121:0000002 ! 1-leaf development
+
+[Term]
+id: CO_121:0000024
+name: 16-six leaves unfolded
+def: "The stage at which sixth leaf more then half visible." [BBCH:Monograph]
+xref: GRO:0007065
+is_a: CO_121:0000002 ! 1-leaf development
+
+[Term]
+id: CO_121:0000025
+name: 17-seven leaves unfolded
+def: "The stage at which seventh leaf more then half visible." [BBCH:Monograph]
+xref: GRO:0007066
+is_a: CO_121:0000002 ! 1-leaf development
+
+[Term]
+id: CO_121:0000026
+name: 18-eight leaves unfolded
+def: "The stage at which eighth leaf more then half visible." [BBCH:Monograph]
+xref: GRO:0007067
+is_a: CO_121:0000002 ! 1-leaf development
+
+[Term]
+id: CO_121:0000027
+name: 19-nine leaves unfolded
+def: "The stage at which ninth leaf more then half visible." [BBCH:Monograph]
+xref: GRO:0007068
+is_a: CO_121:0000002 ! 1-leaf development
+
+[Term]
+id: CO_121:0000028
+name: 20-no tiller
+def: "The stage with main shoot only, without tillers." [BBCH:Monograph]
+synonym: "3.01-main shoot only" RELATED []
+xref: GRO:0007070
+is_a: CO_121:0000003 ! 2-tillering
+
+[Term]
+id: CO_121:0000029
+name: 21-first tiller
+def: "The stage with main shoot and one tiller." [BBCH:Monograph]
+synonym: "3.02-main shoot and one tiller" RELATED []
+xref: GRO:0007071
+is_a: CO_121:0000003 ! 2-tillering
+
+[Term]
+id: CO_121:0000030
+name: 22-two tillers
+def: "The stage with main shoot and two tillers." [BBCH:Monograph]
+synonym: "3.03-main shoot and two tillers" RELATED []
+xref: GRO:0007072
+is_a: CO_121:0000003 ! 2-tillering
+
+[Term]
+id: CO_121:0000031
+name: 23-three tillers
+def: "The stage with main shoot and three tillers." [BBCH:Monograph]
+synonym: "3.04-main shoot and three tillers" RELATED []
+xref: GRO:0007073
+is_a: CO_121:0000003 ! 2-tillering
+
+[Term]
+id: CO_121:0000032
+name: 24-four tillers
+def: "The stage with main shoot and four tillers." [BBCH:Monograph]
+synonym: "3.05-main shoot and four tillers" RELATED []
+xref: GRO:0007074
+is_a: CO_121:0000003 ! 2-tillering
+
+[Term]
+id: CO_121:0000033
+name: 25-five tillers
+def: "The stage with main shoot and five tillers." [BBCH:Monograph]
+synonym: "3.06-main shoot and five tillers" RELATED []
+xref: GRO:0007075
+is_a: CO_121:0000003 ! 2-tillering
+
+[Term]
+id: CO_121:0000034
+name: 26-six tillers
+def: "The stage with main shoot and six tillers." [BBCH:Monograph]
+synonym: "3.07-main shoot and six tillers" RELATED []
+xref: GRO:0007076
+is_a: CO_121:0000003 ! 2-tillering
+
+[Term]
+id: CO_121:0000035
+name: 27-seven tillers
+def: "The stage with main shoot and seven tillers." [BBCH:Monograph]
+synonym: "3.08-main shoot and seven tillers" RELATED []
+xref: GRO:0007077
+is_a: CO_121:0000003 ! 2-tillering
+
+[Term]
+id: CO_121:0000036
+name: 28-eight tillers
+def: "The stage with main shoot and eight tillers." [BBCH:Monograph]
+synonym: "3.09-main shoot and eight tillers" RELATED []
+xref: GRO:0007078
+is_a: CO_121:0000003 ! 2-tillering
+
+[Term]
+id: CO_121:0000037
+name: 29-nine tillers
+def: "The stage with main shoot and nine tillers." [BBCH:Monograph]
+synonym: "3.10-main shoot and nine tillers" RELATED []
+xref: GRO:0007079
+is_a: CO_121:0000003 ! 2-tillering
+
+[Term]
+id: CO_121:0000038
+name: 30-pseudo stem erection
+def: "The stage at which stem elongation begins. Pseudostem and tillers erect, first internode begins to elongate, top of inflorescence at least 1 cm above tillering node." [BBCH:Monograph]
+synonym: "4.01-pseudo stem erection " RELATED []
+xref: GRO:0007081
+is_a: CO_121:0000004 ! 3 stem elongation
+
+[Term]
+id: CO_121:0000039
+name: 31-first node detectable
+def: "The stage at which first node visible at least 1 cm above tillering node." [BBCH:Monograph]
+synonym: "4.02 first node detectable " RELATED []
+xref: GRO:0007082
+is_a: CO_121:0000004 ! 3 stem elongation
+
+[Term]
+id: CO_121:0000040
+name: 32-second node detectable
+def: "The stage at which node two is visible at least 2 cm above node one." [BBCH:Monograph]
+synonym: "4.03-second node detectable " RELATED []
+xref: GRO:0007083
+is_a: CO_121:0000004 ! 3 stem elongation
+
+[Term]
+id: CO_121:0000041
+name: 33-third node detectable
+def: "The stage at which node three is visible at least 2 cm above node two." [BBCH:Monograph]
+synonym: "4.04-third node detectable " RELATED []
+xref: GRO:0007084
+is_a: CO_121:0000004 ! 3 stem elongation
+
+[Term]
+id: CO_121:0000042
+name: 34-fourth node detectable
+def: "The stage at which node four is visible at least 2 cm above node three." [BBCH:Monograph]
+synonym: "4.05-fourth node detectable " RELATED []
+xref: GRO:0007085
+is_a: CO_121:0000004 ! 3 stem elongation
+
+[Term]
+id: CO_121:0000043
+name: 35-fifth node detectable
+def: "The stage at which node five is visible at least 2 cm above node four." [BBCH:Monograph]
+synonym: "4.06-fifth node detectable " RELATED []
+xref: GRO:0007086
+is_a: CO_121:0000004 ! 3 stem elongation
+
+[Term]
+id: CO_121:0000044
+name: 36-sixth node detectable
+def: "The stage at which node six is visible at least 2 cm above node five." [BBCH:Monograph]
+synonym: "4.07-sixth node detectable " RELATED []
+xref: GRO:0007087
+is_a: CO_121:0000004 ! 3 stem elongation
+
+[Term]
+id: CO_121:0000045
+name: 37-flag leaf visible
+def: "The stage at which flag leaf tip just visible, still rolled." [BBCH:Monograph]
+synonym: "4.08-flag leaf just visible " RELATED []
+xref: GRO:0007088
+is_a: CO_121:0000004 ! 3 stem elongation
+
+[Term]
+id: CO_121:0000046
+name: 39-flag leaf ligule visible
+def: "The stage at which flag leaf fully unrolled, ligule just visible." [BBCH:Monograph]
+synonym: "4.09-flag leaf ligule/collar just visible " RELATED []
+xref: GRO:0007089
+is_a: CO_121:0000004 ! 3 stem elongation
+
+[Term]
+id: CO_121:0000047
+name: 41-early booting
+def: "The stage at which flag sheath extending." [BBCH:Monograph]
+synonym: "5.01-flag leaf sheath extending " RELATED []
+xref: GRO:0007091
+is_a: CO_121:0000005 ! 4-booting
+
+[Term]
+id: CO_121:0000048
+name: 43-middle booting
+def: "The stage at which boot opposite ligule of second last leaf and flag leaf sheath just visibly swollen." [BBCH:Monograph]
+synonym: "5.02-boots just swollen " RELATED []
+xref: GRO:0007092
+is_a: CO_121:0000005 ! 4-booting
+
+[Term]
+id: CO_121:0000049
+name: 45-late booting
+def: "The stage at which boot above ligule of second last leaf and flag leaf sheath swollen." [BBCH:Monograph]
+is_a: CO_121:0000005 ! 4-booting
+
+[Term]
+id: CO_121:0000050
+name: 47-flag leaf sheath visible
+def: "The stage at which flag leaf sheath starts opening." [BBCH:Monograph]
+synonym: "5.03-flag leaf sheath opening " RELATED []
+xref: GRO:0007093
+is_a: CO_121:0000005 ! 4-booting
+
+[Term]
+id: CO_121:0000051
+name: 49-first awns visible
+def: "The stage at which first awn visible." [BBCH:Monograph]
+synonym: "5.04-first awns visible " RELATED []
+xref: GRO:0007094
+is_a: CO_121:0000005 ! 4-booting
+
+[Term]
+id: CO_121:0000052
+name: 51-beginning of heading
+def: "The stage at which tip of the inflorescence emerged from sheath, 10% of spikes visible." [BBCH:Monograph]
+synonym: "6.01-first spikelet of inflorescence visible " RELATED []
+xref: GRO:0007096
+is_a: CO_121:0000006 ! 5-inflorescence emergence
+
+[Term]
+id: CO_121:0000053
+name: 52-20%of inflorescence emerged
+def: "The stage at which 20% of spikes visible." [BBCH:Monograph]
+is_a: CO_121:0000006 ! 5-inflorescence emergence
+
+[Term]
+id: CO_121:0000054
+name: 53-30%of inflorescence emerged
+def: "The stage at which 30% of spikes visible." [BBCH:Monograph]
+is_a: CO_121:0000006 ! 5-inflorescence emergence
+
+[Term]
+id: CO_121:0000055
+name: 54-40%of inflorescence emerged
+def: "The stage at which 40% of spikes visible." [BBCH:Monograph]
+is_a: CO_121:0000006 ! 5-inflorescence emergence
+
+[Term]
+id: CO_121:0000056
+name: 55-middle of heading
+def: "The stage at which 50% of spikes visible." [BBCH:Monograph]
+synonym: "6.03-1/2 of inflorescence emerged " RELATED []
+xref: GRO:0007098
+is_a: CO_121:0000006 ! 5-inflorescence emergence
+
+[Term]
+id: CO_121:0000057
+name: 56-60%of inflorescence emerged
+def: "The stage at which 60% of spikes visible." [BBCH:Monograph]
+is_a: CO_121:0000006 ! 5-inflorescence emergence
+
+[Term]
+id: CO_121:0000058
+name: 57-70%of inflorescence emerged
+def: "The stage at which 70% of spikes visible." [BBCH:Monograph]
+is_a: CO_121:0000006 ! 5-inflorescence emergence
+
+[Term]
+id: CO_121:0000059
+name: 58-80%of inflorescence emerged
+def: "The stage at which 80% of spikes visible." [BBCH:Monograph]
+is_a: CO_121:0000006 ! 5-inflorescence emergence
+
+[Term]
+id: CO_121:0000060
+name: 59-end of heading
+def: "The stage at which 90% of spikes visible." [BBCH:Monograph]
+synonym: "6.05-emergence of inflorescence completed " RELATED []
+xref: GRO:0007100
+is_a: CO_121:0000006 ! 5-inflorescence emergence
+
+[Term]
+id: CO_121:0000061
+name: 61-beginning of flowering
+def: "Early flowering stage at which 20% of spikes with anthers." [BBCH:Monograph]
+synonym: "7.01-anthesis beginning " RELATED []
+xref: GRO:0007102
+is_a: CO_121:0000007 ! 6-flowering
+
+[Term]
+id: CO_121:0000062
+name: 65-full flowering
+def: "Mid flowering stage at which 50% of spikes with anthers." [BBCH:Monograph]
+synonym: "7.02-anthesis half-way " RELATED []
+xref: GRO:0007103
+is_a: CO_121:0000007 ! 6-flowering
+
+[Term]
+id: CO_121:0000063
+name: 69-complete flowering
+def: "Late flowering stage at which 90% of spikes with anthers." [BBCH:Monograph]
+synonym: "7.03-anthesis completed " RELATED []
+xref: GRO:0007104
+is_a: CO_121:0000007 ! 6-flowering
+
+[Term]
+id: CO_121:0000064
+name: 71-watery ripe
+def: "The stage at which first kernels have reached half of their final size and contain clear liquid." [BBCH:Monograph]
+synonym: "8.01-kernel watery ripe " RELATED []
+xref: GRO:0007106
+is_a: CO_121:0000008 ! 7-fruit development
+
+[Term]
+id: CO_121:0000065
+name: 73-early milk
+def: "The stage at which kernels have liquid off-white." [BBCH:Monograph]
+synonym: "8.02-early milk " RELATED []
+xref: GRO:0007107
+is_a: CO_121:0000008 ! 7-fruit development
+
+[Term]
+id: CO_121:0000066
+name: 75-medium milk
+def: "The stage at which kernels content milky liquid, kernel reached final size, still green." [BBCH:Monograph]
+synonym: "8.04-medium milk " RELATED []
+xref: GRO:0007108
+is_a: CO_121:0000008 ! 7-fruit development
+
+[Term]
+id: CO_121:0000067
+name: 77-late milk
+def: "The stage at which kernels have more solids in milk." [BBCH:Monograph]
+synonym: "8.03-late milk " RELATED []
+xref: GRO:0007109
+is_a: CO_121:0000008 ! 7-fruit development
+
+[Term]
+id: CO_121:0000068
+name: 83-early dough
+def: "The stage at which kernels are soft, elastic and almost dry and shiny." [BBCH:Monograph]
+synonym: "9.01-early dough " RELATED []
+xref: GRO:0007111
+is_a: CO_121:0000009 ! 8-ripening
+
+[Term]
+id: CO_121:0000069
+name: 85-soft dough
+def: "The stage at which kernels are firm, crumbles fingernail impression not held." [BBCH:Monograph]
+synonym: "9.02-soft dough " RELATED []
+xref: GRO:0007112
+is_a: CO_121:0000009 ! 8-ripening
+
+[Term]
+id: CO_121:0000070
+name: 87-hard dough
+def: "The stage at which fingernail impression held and spike yellow-brown." [BBCH:Monograph]
+synonym: "9.03-hard dough " RELATED []
+xref: GRO:0007113
+is_a: CO_121:0000009 ! 8-ripening
+
+[Term]
+id: CO_121:0000071
+name: 89-fully ripe
+def: "The stage at which difficult to dent." [BBCH:Monograph]
+synonym: "10.02-kernel hard " RELATED []
+xref: GRO:0007116
+is_a: CO_121:0000009 ! 8-ripening
+
+[Term]
+id: CO_121:0000072
+name: 92-over ripe
+def: "Harvest ripe, kernels can no longer be divided by thumb-nail and straw still firm." [BBCH:Monograph]
+is_a: CO_121:0000010 ! 9-senescence
+
+[Term]
+id: CO_121:0000073
+name: 93-grain loosing
+def: "At this stage kernels loosing in daytime." [BBCH:Monograph]
+synonym: "10.03-kernel loosening in daytime " RELATED []
+xref: GRO:0007117
+is_a: CO_121:0000010 ! 9-senescence
+
+[Term]
+id: CO_121:0000074
+name: 97-plant dead
+synonym: "10.04-overripe, straw dead and collapsing " RELATED []
+xref: GRO:0007118
+is_a: CO_121:0000010 ! 9-senescence
+
+[Term]
+id: CO_121:0000075
+name: 99-harvested product
+synonym: "10.05-seed dormant " RELATED []
+xref: GRO:0007119
+is_a: CO_121:0000010 ! 9-senescence
+
+[Term]
+id: CO_121:0000076
+name: 60-whole spike visible
+def: "The stage at which whole spike visible, no yellow anthers." [BBCH:Monograph]
+is_a: CO_121:0000007 ! 6-flowering
+
